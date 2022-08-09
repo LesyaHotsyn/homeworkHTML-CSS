@@ -1,0 +1,30 @@
+*{
+padding: 0;
+margin: 0;
+font-size: 32px;
+}
+
+input[placeholder='hello']{
+    color: red;
+}
+
+.flex{
+    display: flex;
+    background-color: rgb(196, 194, 193);
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.flex-one{
+    flex:1 
+}
+
+.flex-two{
+    flex:1
+}
+
+.flex p:nth-of-type(2n){
+    background-color: rgb(156, 155, 153);
+}
+
