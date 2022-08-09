@@ -126,8 +126,8 @@ input::placeholder{
 
 
 .text-first{
-    margin: 223px auto;
-    max-width: 696px;
+    /* margin: 223px auto; */
+    /* max-width: 696px; */
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 36px;
@@ -147,23 +147,31 @@ input::placeholder{
 
 .item-one{
     position: absolute;
-    left: -360px;
-    top: -100px;
+    left: 0px;
+    top: -121px;
 }
 
 .item-two{
     position: absolute;
-    left: -360px;
+    left: 0px;
     top: 125px;
 }
 
 .item-three{
     position: absolute;
-    right: -360px;
-    top: 10px;
+    right: 0px;
+    top: 20px;
 }
 
-.p::before{
+p{
+    max-width: 696px;
+    margin: 223px auto;
+}
+
+.ph{
+    position: relative;
+}
+.ph::before{
     position: absolute;
     content: '';
     width: 58px;
@@ -174,7 +182,7 @@ input::placeholder{
     left: -30px;  
 }
 
-.p::after{
+.ph::after{
     position: absolute;
     content: '';
     width: 120px;
